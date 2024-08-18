@@ -61,4 +61,8 @@ namespace EstudiantesWebApp.Pages
                 DetalleEstudiantes = new List<Estudiante>();
             }
         }
+    }
+}
 
+        
+    
