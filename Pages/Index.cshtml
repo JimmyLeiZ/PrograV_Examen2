@@ -1,0 +1,38 @@
+﻿@page
+@model EstudiantesWebApp.Pages.IndexModel
+@{
+    /*Titulo de la página web*/
+    ViewData["Title"] = "Aplicación de Estudiantes";
+}
+
+<h1>Aplicación de Estudiantes</h1>
+
+<form method="post">
+
+    <div>
+         <!-- Tabla que muestra los detalles de cada estudiante. -->
+        <table class="table">
+            <thead>
+                <tr>
+                     <!-- Definición de las columnas de la tabla. -->
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>Correo</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <!-- Itera sobre cada estudiante y muestra sus detalles en filas de la tabla -->
+                @foreach (var estudiante in Model.DetalleEstudiantes)
+                {
+                    <tr>
+                        <td>@estudiante.Nombre</td>
+                        <td>@estudiante.Apellido</td>
+                        <td>@estudiante.Edad</td>
+                        <td>@estudiante.Correo</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</form>

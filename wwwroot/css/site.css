@@ -1,0 +1,133 @@
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: 'Arial', sans-serif;
+  color: #333; /* Texto en color oscuro para buen contraste */
+  background-color: #f9f9f9; /* Fondo muy claro para toda la página */
+}
+
+/* Container para contenido principal */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* Fondo blanco para el contenedor */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Header Styles */
+header {
+  background-color: #007bff; /* Fondo azul claro para el encabezado */
+  color: #ffffff; /* Texto blanco */
+  padding: 15px 20px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Form Styles */
+form {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333; /* Color oscuro para las etiquetas */
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Borde gris claro para los campos de entrada */
+  background-color: #ffffff; /* Fondo blanco para los campos de entrada */
+  color: #333; /* Texto oscuro dentro de los campos de entrada */
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff; /* Fondo azul claro para el botón */
+  color: #ffffff; /* Texto blanco */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Fondo azul más oscuro en hover */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd; /* Borde gris claro para las celdas */
+  padding: 10px;
+  text-align: left;
+  background-color: #ffffff; /* Fondo blanco para las celdas de la tabla */
+  color: #333; /* Texto oscuro dentro de las celdas */
+}
+
+table th {
+  background-color: #f2f2f2; /* Fondo gris claro para el encabezado de la tabla */
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Fondo gris muy claro para las filas pares */
+}
+
+table tr:nth-child(odd) {
+  background-color: #ffffff; /* Fondo blanco para las filas impares */
+}
+
+/* Focus and Active States */
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem #007bff, 0 0 0 0.25rem #007bff; /* Estilo de enfoque azul claro */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  table th, table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
