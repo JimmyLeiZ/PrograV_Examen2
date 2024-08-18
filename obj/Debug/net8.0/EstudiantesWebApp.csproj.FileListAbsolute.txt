@@ -134,3 +134,4 @@ C:\Users\Jimmy\Documents\prograV\Segundo examen PrograV\EstudiantesWebApp\obj\De
 C:\Users\Jimmy\Documents\prograV\Segundo examen PrograV\EstudiantesWebApp\obj\Debug\net8.0\EstudiantesWebApp.pdb
 C:\Users\Jimmy\Documents\prograV\Segundo examen PrograV\EstudiantesWebApp\obj\Debug\net8.0\EstudiantesWebApp.genruntimeconfig.cache
 C:\Users\Jimmy\Documents\prograV\Segundo examen PrograV\EstudiantesWebApp\obj\Debug\net8.0\ref\EstudiantesWebApp.dll
+C:\Users\Jimmy\Documents\prograV\Segundo examen PrograV\EstudiantesWebApp\obj\Debug\net8.0\EstudiantesWebApp.sourcelink.json

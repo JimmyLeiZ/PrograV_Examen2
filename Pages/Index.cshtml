@@ -15,6 +15,7 @@
             <thead>
                 <tr>
                      <!-- Definición de las columnas de la tabla. -->
+                    <th>ID</th>
                     <th>Nombre</th>
                     <th>Apellido</th>
                     <th>Edad</th>
@@ -26,6 +27,7 @@
                 @foreach (var estudiante in Model.DetalleEstudiantes)
                 {
                     <tr>
+                        <td>@estudiante.ID</td>
                         <td>@estudiante.Nombre</td>
                         <td>@estudiante.Apellido</td>
                         <td>@estudiante.Edad</td>
