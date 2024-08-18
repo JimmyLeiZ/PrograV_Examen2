@@ -6,7 +6,16 @@
 }
 
 <h1>Aplicación de Estudiantes</h1>
-
+<!-- Mostrar mensaje de error -->
+@if (!ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+}
 <form method="post">
 
     <div>
